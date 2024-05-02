@@ -46,7 +46,7 @@ def update_md_with_relative_paths(md_file, content, downloaded_image_paths):
 
 if __name__ == "__main__":
     # Markdown文档所在文件夹路径
-    folder_path = "./安服之路/"
+    folder_path = "/"
     
     # 对目录进行深度递归 返回为list
     md_files = [os.path.join(dirpath, filename) for dirpath, dirnames, filenames in os.walk(folder_path) for filename in filenames]
